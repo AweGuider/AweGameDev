@@ -1,0 +1,46 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+    #ROOTNAMESPACEBEGIN#
+public class #SCRIPTNAME# : MonoBehaviour
+{
+    [SerializeField] private bool initOnvalidate;
+
+    private void Init()
+    {
+        #NOTRIM#
+    }
+
+    #region Awake, Start, OnEnable, OnDisable, Update, LateUpdate, OnValidate
+    void Awake()
+    {
+        #NOTRIM#
+    }
+    void Start()
+    {
+        #NOTRIM#
+    }
+    void OnEnable()
+    {
+        #NOTRIM#
+    }
+    void OnDisable()
+    {
+        #NOTRIM#
+    }
+    void Update()
+    {
+        #NOTRIM#
+    }
+    void LateUpdate()
+    {
+        #NOTRIM#
+    }
+    void OnValidate()
+    {
+        if (initOnvalidate) Init();
+    }
+    #endregion
+}
+#ROOTNAMESPACEEND#
